@@ -1,6 +1,6 @@
 {
     "name": "railator",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "artofcode-",
     "description": "National Rail API translator, REST to SOAP",
     "main": "server",
@@ -8,6 +8,7 @@
         "type": "git",
         "url": "https://github.com/ArtOfCode-/railator"
     },
+    "license": "MIT",
     "dependencies": {
         "fast-xml-parser": "^3.12.16",
         "node-fetch": "^2.6.0",
