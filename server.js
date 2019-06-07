@@ -19,5 +19,5 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(config.port, () => {
-    console.log(`Server listening on ${config.port}.`);
+    console.log(`Server listening on ${config.port}.`); // eslint-disable-line no-console
 });
