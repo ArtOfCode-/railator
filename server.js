@@ -15,6 +15,7 @@ const server = http.createServer(async (req, res) => {
 
     const results = await client[methodName](params);
     res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.end(JSON.stringify(results));
 });
 
