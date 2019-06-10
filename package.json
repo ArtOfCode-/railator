@@ -1,6 +1,6 @@
 {
     "name": "railator",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "author": "artofcode-",
     "description": "National Rail API translator, REST to SOAP",
     "main": "server",
