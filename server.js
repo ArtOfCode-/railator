@@ -13,10 +13,19 @@ const server = http.createServer(async (req, res) => {
     const chars = operation.split('');
     const methodName = chars[0].toLowerCase() + chars.slice(1, chars.length).join('');
 
-    const results = await client[methodName](params);
-    res.setHeader('Content-Type', 'application/json');
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.end(JSON.stringify(results));
+    try {
+        const results = await client[methodName](params);
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.end(JSON.stringify(results));
+    }
+    catch (ex) {
+        console.log('soap:Fault received from NR server:', ex.message); // eslint-disable-line no-console
+        res.statusCode = 400;
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.end(JSON.stringify({error: ex.message}));
+    }
 });
 
 server.listen(config.port, () => {

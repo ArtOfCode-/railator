@@ -18,6 +18,13 @@ const refActionBase = 'http://thalesgroup.com/RTTI/2015-05-14/ldbsv_ref';
 
 const isObject = obj => obj === Object(obj);
 
+class SoapException extends Error {
+    constructor (message) {
+        super();
+        this.message = message;
+    }
+}
+
 module.exports = class NationalRailClient {
     static denamespacify(obj) {
         if (obj instanceof Array) {
@@ -117,8 +124,16 @@ module.exports = class NationalRailClient {
             const raw = await response.text();
             const data = xmlParser.parse(raw, { textNodeName: 'content', attributeNamePrefix: '', attrNodeName: 'attr', ignoreAttributes: false });
             const responseType = `${method}Response`;
-            const bodyData = data['soap:Envelope']['soap:Body'][responseType];
-            return NationalRailClient.denamespacify(bodyData[Object.keys(bodyData).filter(x => x !== 'attr')[0]]);
+            const soapBody = data['soap:Envelope']['soap:Body'];
+
+            if (soapBody['soap:Fault']) {
+                throw new SoapException(soapBody['soap:Fault']['soap:Reason']['soap:Text'].content);
+            }
+            else {
+                const bodyData = soapBody[responseType] ? soapBody[responseType] : {};
+                const dataKey = Object.keys(bodyData).filter(x => x !== 'attr')[0];
+                return !dataKey ? {} : NationalRailClient.denamespacify(bodyData[dataKey]);
+            }
         };
     }
 };
