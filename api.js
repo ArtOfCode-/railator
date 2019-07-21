@@ -122,7 +122,7 @@ module.exports = class NationalRailClient {
             });
 
             const raw = await response.text();
-            const data = xmlParser.parse(raw, { textNodeName: 'content', attributeNamePrefix: '', attrNodeName: 'attr', ignoreAttributes: false });
+            const data = xmlParser.parse(raw, { textNodeName: 'content', attributeNamePrefix: '', attrNodeName: 'attr', ignoreAttributes: false, parseTrueNumberOnly: true });
             const responseType = `${method}Response`;
             const soapBody = data['soap:Envelope']['soap:Body'];
 
