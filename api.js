@@ -25,7 +25,7 @@ class SoapException extends Error {
     }
 }
 
-module.exports = class NationalRailClient {
+class NationalRailClient {
     static denamespacify(obj) {
         if (obj instanceof Array) {
             const result = [];
@@ -136,4 +136,6 @@ module.exports = class NationalRailClient {
             }
         };
     }
-};
+}
+
+module.exports = { NationalRailClient, SoapException };

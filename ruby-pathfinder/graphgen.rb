@@ -1,10 +1,12 @@
 require 'csv'
 require 'json'
+require 'active_support/core_ext/string/inflections'
 require_relative 'lib/graph'
 
-DATA_PATH = 'data/times.csv'
-GRAPH_PATH = 'data/graph.rbm'
-STATION_PATH = 'data/stations.json'
+DATA_PATH = File.join(__dir__, 'data/times.csv')
+GRAPH_PATH = File.join(__dir__, 'data/graph.rbm')
+STATION_PATH = File.join(__dir__, 'data/stations.json')
+STATION_NAMES_PATH = File.join(__dir__, 'data/station_names.json')
 INTERCHANGE_TIME = 210
 
 data = CSV.parse(File.read(DATA_PATH, encoding: 'bom|utf-8'))
@@ -20,7 +22,6 @@ data.each do |segment|
   graph.add_vertex from
   graph.add_vertex to
   graph.add_edge from, to, time.to_i
-  puts "#{from} <- #{time} -> #{to}"
 end
 
 # Extract station names with lines from each item
@@ -67,11 +68,14 @@ all_interchange_edges = (ic_edges + ms_edges).uniq
 all_interchange_edges.each do |edge|
   lined, pair = edge
   graph.add_edge lined, pair, INTERCHANGE_TIME
-  puts "#{lined} <- ic #{INTERCHANGE_TIME} -> #{pair}"
 end
 
+station_names = JSON.load(File.read(STATION_NAMES_PATH))
+stations_written = File.write(STATION_PATH,
+                              JSON.dump(all_stations.keys.sort.map { |k| [k, station_names[k] || k.titleize] }.to_h))
+
 written = File.write(GRAPH_PATH, Marshal.dump([graph, all_stations]))
-File.write(STATION_PATH, JSON.dump(all_stations.keys))
+puts "Saved station data. #{stations_written} bytes written, #{all_stations.size} stations."
 puts "Saved graph. #{written} bytes written. " \
      "#{graph.vertices.size} vertices, " \
      "#{data.size + all_interchange_edges.size} edges, " \

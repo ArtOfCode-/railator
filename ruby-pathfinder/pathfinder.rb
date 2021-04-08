@@ -1,12 +1,15 @@
 require_relative 'lib/graph'
 require 'set'
 require 'benchmark'
+require 'json'
 
-hours, minutes, seconds, path_stripped_through = nil
+time_full, hours, minutes, seconds, path, path_stripped_through, path_data = nil
 
 extime = Benchmark.measure do
   GRAPH_PATH = 'data/graph.rbm'
+  LINES_PATH = 'data/lines.json'
   graph, station_variants = Marshal.load(File.read(GRAPH_PATH))
+  line_data = JSON.load(File.read(LINES_PATH))
 
   splat = ARGV.join(' ').split(' -- ')
   if splat.size < 2
@@ -29,6 +32,7 @@ extime = Benchmark.measure do
 
   time, path = paths[0]
   path = path.to_a
+  time_full = time
 
   hours = time / 3600
   time -= hours * 3600
@@ -38,8 +42,15 @@ extime = Benchmark.measure do
 
   path_lines = path.group_by { |stn| stn.split(' [')[1] }
   path_stripped_through = path_lines.map { |ln, pg| [pg[0], pg[-1]] }.flatten
+  with_lines = path_stripped_through.map do |lined|
+    station, line = lined.split(' [')
+    line = line.gsub(']', '')
+    { name: station, line: line_data[line] }
+  end
+  uniq_lines = with_lines.map { |l| l[:line] }.uniq
+  grouped = with_lines.group_by { |l| l[:line] }
+  path_data = uniq_lines.map { |l| { line: l, from: grouped[l][0][:name], to: grouped[l][-1][:name] } }
 end
 
-puts "Travel time: #{hours}h #{minutes}m #{seconds}s"
-puts "Path: #{path_stripped_through.join(' -> ')}"
-puts "Execution time: #{(extime.real * 1000).round}ms"
+puts JSON.dump({ time: time_full, time_human: "#{hours}h #{minutes}m #{seconds}s", path: path,
+                 steps: path_data, execution_time: (extime.real * 1000).round })

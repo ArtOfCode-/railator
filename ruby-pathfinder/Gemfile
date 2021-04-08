@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'rgl'
+gem 'activesupport', '~> 6.1'

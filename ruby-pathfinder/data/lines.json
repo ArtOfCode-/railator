@@ -1,0 +1,22 @@
+{
+  "VIC": "Victoria",
+  "PIC": "Piccadilly",
+  "WTC": "Waterloo & City",
+  "NTH": "Northern",
+  "MET": "Metropolitan",
+  "JUB": "Jubilee",
+  "DIS": "District",
+  "CIR": "Circle",
+  "HAM": "Hammersmith & City",
+  "CEN": "Central",
+  "BAK": "Bakerloo",
+  "OVG-WEU": "London Overground",
+  "OVG-GOB": "London Overground",
+  "OVG-LST": "London Overground",
+  "OVG-HSL": "London Overground",
+  "OVG-SRC": "London Overground",
+  "OVG-ROM": "London Overground",
+  "ELZ": "Elizabeth",
+  "DLR": "Docklands Light Railway",
+  "TRM": "London Trams"
+}

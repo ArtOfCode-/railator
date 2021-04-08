@@ -4,7 +4,7 @@ const fs = require('fs');
 const { exec } = require('child_process');
 
 const config = require('./config');
-const NationalRailClient = require('./api');
+const { NationalRailClient, SoapException } = require('./api');
 const client = new NationalRailClient(config.token);
 
 const londonStations = JSON.parse(fs.readFileSync('ruby-pathfinder/data/stations.json'));
@@ -29,18 +29,40 @@ const sendText = (res, data) => {
 
 const server = http.createServer(async (req, res) => {
     const requested = url.parse(req.url, true);
-    const operation = requested.pathname.split('/').filter(x => !!x)[0];
+    const pathSplat = requested.pathname.split('/').filter(x => !!x);
+    const operation = pathSplat[0];
     const params = requested.query;
 
-    console.log(operation);
     if (operation === '-') {
+        if (pathSplat.length > 1 && pathSplat[1] == 'stations') {
+            return fs.readFile('ruby-pathfinder/data/stations.json', (err, data) => {
+                if (err) {
+                    sendError(res, 500, err);
+                }
+                else {
+                    sendData(res, data);
+                }
+            });
+        }
+
+        if (pathSplat.length > 1 && pathSplat[1] == 'lines') {
+            return fs.readFile('ruby-pathfinder/data/lines.json', (err, data) => {
+                if (err) {
+                    sendError(res, 500, err);
+                }
+                else {
+                    sendData(res, data);
+                }
+            });
+        }
+
         if (!config.enableRubyPathfinder) {
             sendError(res, 502, 'Ruby pathfinder capability disabled by server config.');
             return;
         }
 
-        const from = londonStations.indexOf(params.from) > -1 ? params.from : null;
-        const to = londonStations.indexOf(params.to) > -1 ? params.to : null;
+        const from = londonStations[params.from] ? params.from : null;
+        const to = londonStations[params.to] ? params.to : null;
 
         if (!from || !to) {
             sendError(res, 400, 'Origin or destination station invalid.');
@@ -52,7 +74,7 @@ const server = http.createServer(async (req, res) => {
                 sendError(res, 500, err && stderr ? { err, stderr } : err || stderr);
                 return;
             }
-            sendText(res, stdout);
+            sendData(res, stdout);
             return;
         });
 
@@ -67,8 +89,13 @@ const server = http.createServer(async (req, res) => {
         sendData(JSON.stringify(results));
     }
     catch (ex) {
-        console.log('soap:Fault received from NR server:', ex.message); // eslint-disable-line no-console
-        sendError(res, 400, ex.message);
+        if (ex instanceof SoapException) {
+            console.log('soap:Fault received from NR server:', ex.message); // eslint-disable-line no-console
+            sendError(res, 400, ex.message);
+        }
+        else {
+            sendError(res, 404, ex.message);
+        }
     }
 });
 
