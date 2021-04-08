@@ -69,7 +69,7 @@ const server = http.createServer(async (req, res) => {
             return;
         }
 
-        exec(`cd ruby-pathfinder && ruby pathfinder.rb ${from} -- ${to}`, (err, stdout, stderr) => {
+        exec(`cd ruby-pathfinder && ruby pathfinder.rb '${from}' -- '${to}'`, (err, stdout, stderr) => {
             if (err || stderr) {
                 sendError(res, 500, err && stderr ? { err, stderr } : err || stderr);
                 return;
@@ -86,7 +86,7 @@ const server = http.createServer(async (req, res) => {
 
     try {
         const results = await client[methodName](params);
-        sendData(JSON.stringify(results));
+        sendData(res, JSON.stringify(results));
     }
     catch (ex) {
         if (ex instanceof SoapException) {

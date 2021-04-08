@@ -50,7 +50,9 @@ extime = Benchmark.measure do
   uniq_lines = with_lines.map { |l| l[:line] }.uniq
   grouped = with_lines.group_by { |l| l[:line] }
   path_data = uniq_lines.map { |l| { line: l, from: grouped[l][0][:name], to: grouped[l][-1][:name] } }
+                        .filter { |d| d[:from] != d[:to] }
 end
 
-puts JSON.dump({ time: time_full, time_human: "#{hours}h #{minutes}m #{seconds}s", path: path,
+puts JSON.dump({ time: { total: time_full, hours: hours, minutes: minutes, seconds: seconds },
+                 time_human: "#{hours}h #{minutes}m #{seconds}s", path: path,
                  steps: path_data, execution_time: (extime.real * 1000).round })
