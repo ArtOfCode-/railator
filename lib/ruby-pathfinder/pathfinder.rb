@@ -6,8 +6,8 @@ require 'json'
 time_full, hours, minutes, seconds, path, path_stripped_through, path_data = nil
 
 extime = Benchmark.measure do
-  GRAPH_PATH = 'data/graph.rbm'
-  LINES_PATH = 'data/lines.json'
+  GRAPH_PATH = File.join(__dir__, 'data/graph.rbm')
+  LINES_PATH = File.join(__dir__, 'data/lines.json')
   graph, station_variants = Marshal.load(File.read(GRAPH_PATH))
   line_data = JSON.load(File.read(LINES_PATH))
 
