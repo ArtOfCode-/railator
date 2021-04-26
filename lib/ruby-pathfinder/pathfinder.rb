@@ -3,7 +3,7 @@ require 'set'
 require 'benchmark'
 require 'json'
 
-time_full, hours, minutes, seconds, path, path_stripped_through, path_data = nil
+time_full, hours, minutes, seconds, path, path_stripped_through, path_data, stations = nil
 
 extime = Benchmark.measure do
   GRAPH_PATH = File.join(__dir__, 'data/graph.rbm')
@@ -65,8 +65,13 @@ extime = Benchmark.measure do
   grouped = with_lines.group_by { |l| l[:line] }
   path_data = uniq_lines.map { |l| { line: l, from: grouped[l][0][:name], to: grouped[l][-1][:name] } }
                         .filter { |d| d[:from] != d[:to] }
+  stations = path.map do |stn|
+    station, line = stn.split(' [')
+    line = line.gsub(']', '')
+    { name: station, line: line }
+  end.group_by { |d| d[:line] }.map { |l, s| [l, s.map { |sx| sx[:name] }] }.to_h
 end
 
 puts JSON.dump({ time: { total: time_full, hours: hours, minutes: minutes, seconds: seconds },
-                 time_human: "#{hours}h #{minutes}m #{seconds}s", path: path,
+                 time_human: "#{hours}h #{minutes}m #{seconds}s", path: path, stations: stations,
                  steps: path_data, execution_time: (extime.real * 1000).round })
