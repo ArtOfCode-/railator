@@ -1,4 +1,4 @@
 node_modules
 config.js
 .vscode
-ruby-pathfinder/data/times*
+ruby-pathfinder/data/stops-all.csv

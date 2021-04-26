@@ -1,0 +1,622 @@
+Brixton [VIC],Stockwell [VIC],123
+Stockwell [VIC],Vauxhall [VIC],128
+Vauxhall [VIC],Pimlico [VIC],87
+Pimlico [VIC],Victoria [VIC],118
+Victoria [VIC],Green Park [VIC],111
+Green Park [VIC],Oxford Circus [VIC],119
+Oxford Circus [VIC],Warren Street [VIC],101
+Warren Street [VIC],Euston [VIC],89
+Euston [VIC],King's Cross St. Pancras [VIC],87
+King's Cross St. Pancras [VIC],Highbury & Islington [VIC],164
+Highbury & Islington [VIC],Finsbury Park [VIC],145
+Finsbury Park [VIC],Seven Sisters [VIC],206
+Seven Sisters [VIC],Tottenham Hale [VIC],101
+Tottenham Hale [VIC],Blackhorse Road [VIC],111
+Blackhorse Road [VIC],Walthamstow Central [VIC],100
+Cockfosters [PIC],Oakwood [PIC],162
+Oakwood [PIC],Southgate [PIC],162
+Southgate [PIC],Arnos Grove [PIC],245
+Arnos Grove [PIC],Bounds Green [PIC],141
+Bounds Green [PIC],Wood Green [PIC],147
+Wood Green [PIC],Turnpike Lane [PIC],107
+Turnpike Lane [PIC],Manor House [PIC],195
+Manor House [PIC],Finsbury Park [PIC],138
+Finsbury Park [PIC],Arsenal [PIC],93
+Arsenal [PIC],Holloway Road [PIC],95
+Holloway Road [PIC],Caledonian Road [PIC],87
+Caledonian Road [PIC],King's Cross St. Pancras [PIC],202
+King's Cross St. Pancras [PIC],Russell Square [PIC],116
+Russell Square [PIC],Holborn [PIC],108
+Holborn [PIC],Covent Garden [PIC],104
+Covent Garden [PIC],Leicester Square [PIC],66
+Leicester Square [PIC],Piccadilly Circus [PIC],85
+Piccadilly Circus [PIC],Green Park [PIC],95
+Green Park [PIC],Hyde Park Corner [PIC],123
+Hyde Park Corner [PIC],Knightsbridge [PIC],90
+Knightsbridge [PIC],South Kensington [PIC],158
+South Kensington [PIC],Gloucester Road [PIC],106
+Gloucester Road [PIC],Earl's Court [PIC],102
+Earl's Court [PIC],Barons Court [PIC],184
+Barons Court [PIC],Hammersmith [PIC],126
+Hammersmith [PIC],Acton Town [PIC],380
+Acton Town [PIC],South Ealing [PIC],202
+South Ealing [PIC],Northfields [PIC],78
+Northfields [PIC],Boston Manor [PIC],115
+Boston Manor [PIC],Osterley [PIC],194
+Osterley [PIC],Hounslow East [PIC],115
+Hounslow East [PIC],Hounslow Central [PIC],97
+Hounslow Central [PIC],Hounslow West [PIC],155
+Hatton Cross [PIC],Heathrow Terminal 4 [PIC],138
+Hatton Cross [PIC],Heathrow Terminals 2 & 3 [PIC],249
+Heathrow Terminals 2 & 3 [PIC],Heathrow Terminal 5 [PIC],195
+Acton Town [PIC],Ealing Common [PIC],146
+Ealing Common [PIC],North Ealing [PIC],126
+North Ealing [PIC],Park Royal [PIC],120
+Park Royal [PIC],Alperton [PIC],161
+Alperton [PIC],Sudbury Town [PIC],143
+Sudbury Town [PIC],Sudbury Hill [PIC],159
+Sudbury Hill [PIC],South Harrow [PIC],144
+South Harrow [PIC],Rayners Lane [PIC],188
+Rayners Lane [PIC],Eastcote [PIC],150
+Eastcote [PIC],Ruislip Manor [PIC],124
+Ruislip Manor [PIC],Ruislip [PIC],93
+Ruislip [PIC],Ickenham [PIC],150
+Ickenham [PIC],Hillingdon [PIC],115
+Hillingdon [PIC],Uxbridge [PIC],210
+Waterloo [WTC],Bank [WTC],255
+Edgware [NTH],Burnt Oak [NTH],149
+Burnt Oak [NTH],Colindale [NTH],135
+Colindale [NTH],Hendon Central [NTH],174
+Hendon Central [NTH],Brent Cross [NTH],112
+Brent Cross [NTH],Golders Green [NTH],153
+Golders Green [NTH],Hampstead [NTH],208
+Hampstead [NTH],Belsize Park [NTH],120
+Belsize Park [NTH],Chalk Farm [NTH],110
+Chalk Farm [NTH],Camden Town [NTH],102
+Mill Hill East [NTH],Finchley Central [NTH],159
+High Barnet [NTH],Totteridge & Whetstone [NTH],187
+Totteridge & Whetstone [NTH],Woodside Park [NTH],127
+Woodside Park [NTH],West Finchley [NTH],105
+West Finchley [NTH],Finchley Central [NTH],127
+Finchley Central [NTH],East Finchley [NTH],181
+East Finchley [NTH],Highgate [NTH],156
+Highgate [NTH],Archway [NTH],166
+Archway [NTH],Tufnell Park [NTH],98
+Tufnell Park [NTH],Kentish Town [NTH],95
+Kentish Town [NTH],Camden Town [NTH],132
+Camden Town [NTH],Mornington Crescent [NTH],101
+Mornington Crescent [NTH],Euston [NTH],111
+Euston [NTH],Warren Street [NTH],87
+Warren Street [NTH],Goodge Street [NTH],74
+Goodge Street [NTH],Tottenham Court Road [NTH],89
+Tottenham Court Road [NTH],Leicester Square [NTH],70
+Leicester Square [NTH],Charing Cross [NTH],80
+Charing Cross [NTH],Embankment [NTH],63
+Embankment [NTH],Waterloo [NTH],90
+Waterloo [NTH],Kennington [NTH],167
+Camden Town [NTH],Euston [NTH],190
+Euston [NTH],King's Cross St. Pancras [NTH],101
+King's Cross St. Pancras [NTH],Angel [NTH],147
+Angel [NTH],Old Street [NTH],144
+Old Street [NTH],Moorgate [NTH],98
+Moorgate [NTH],Bank [NTH],121
+Bank [NTH],London Bridge [NTH],105
+London Bridge [NTH],Borough [NTH],93
+Borough [NTH],Elephant & Castle [NTH],123
+Elephant & Castle [NTH],Kennington [NTH],103
+Kennington [NTH],Oval [NTH],115
+Oval [NTH],Stockwell [NTH],137
+Stockwell [NTH],Clapham North [NTH],96
+Clapham North [NTH],Clapham Common [NTH],92
+Clapham Common [NTH],Clapham South [NTH],129
+Clapham South [NTH],Balham [NTH],120
+Balham [NTH],Tooting Bec [NTH],107
+Tooting Bec [NTH],Tooting Broadway [NTH],116
+Tooting Broadway [NTH],Colliers Wood [NTH],122
+Colliers Wood [NTH],South Wimbledon [NTH],118
+South Wimbledon [NTH],Morden [NTH],137
+Chesham [MET],Chalfont & Latimer [MET],510
+Amersham [MET],Chalfont & Latimer [MET],210
+Chalfont & Latimer [MET],Chorleywood [MET],213
+Chorleywood [MET],Rickmansworth [MET],224
+Rickmansworth [MET],Moor Park [MET],224
+Moor Park [MET],Harrow-On-The-Hill [MET],531
+Rickmansworth [MET],Croxley [MET],275
+Watford [MET],Croxley [MET],160
+Croxley [MET],Moor Park [MET],234
+Moor Park [MET],Northwood [MET],168
+Northwood [MET],Northwood Hills [MET],135
+Northwood Hills [MET],Pinner [MET],151
+Pinner [MET],North Harrow [MET],128
+North Harrow [MET],Harrow-On-The-Hill [MET],181
+Uxbridge [MET],Hillingdon [MET],170
+Hillingdon [MET],Ickenham [MET],111
+Ickenham [MET],Ruislip [MET],153
+Ruislip [MET],Ruislip Manor [MET],96
+Ruislip Manor [MET],Eastcote [MET],118
+Eastcote [MET],Rayners Lane [MET],147
+Rayners Lane [MET],West Harrow [MET],128
+Harrow-On-The-Hill [MET],Finchley Road [MET],641
+Harrow-On-The-Hill [MET],Northwick Park [MET],134
+Northwick Park [MET],Preston Road [MET],134
+Preston Road [MET],Wembley Park [MET],144
+Wembley Park [MET],Finchley Road [MET],423
+Finchley Road [MET],Baker Street [MET],370
+Baker Street [MET],Great Portland Street [MET],134
+Great Portland Street [MET],Euston Square [MET],95
+Euston Square [MET],King's Cross St. Pancras [MET],135
+King's Cross St. Pancras [MET],Farringdon [MET],200
+Farringdon [MET],Barbican [MET],98
+Barbican [MET],Moorgate [MET],105
+Moorgate [MET],Liverpool Street [MET],102
+Liverpool Street [MET],Aldgate [MET],127
+Stanmore [JUB],Canons Park [JUB],143
+Canons Park [JUB],Queensbury [JUB],137
+Queensbury [JUB],Kingsbury [JUB],123
+Kingsbury [JUB],Wembley Park [JUB],217
+Wembley Park [JUB],Neasden [JUB],169
+Neasden [JUB],Dollis Hill [JUB],96
+Dollis Hill [JUB],Willesden Green [JUB],116
+Willesden Green [JUB],Kilburn [JUB],117
+Kilburn [JUB],West Hampstead [JUB],103
+West Hampstead [JUB],Finchley Road [JUB],95
+Finchley Road [JUB],Swiss Cottage [JUB],81
+Swiss Cottage [JUB],St. John's Wood [JUB],100
+St. John's Wood [JUB],Baker Street [JUB],156
+Baker Street [JUB],Bond Street [JUB],149
+Bond Street [JUB],Green Park [JUB],113
+Green Park [JUB],Westminster [JUB],126
+Westminster [JUB],Waterloo [JUB],100
+Waterloo [JUB],Southwark [JUB],68
+Southwark [JUB],London Bridge [JUB],114
+London Bridge [JUB],Bermondsey [JUB],137
+Bermondsey [JUB],Canada Water [JUB],101
+Canada Water [JUB],Canary Wharf [JUB],154
+Canary Wharf [JUB],North Greenwich [JUB],127
+North Greenwich [JUB],Canning Town [JUB],149
+Canning Town [JUB],West Ham [JUB],143
+West Ham [JUB],Stratford [JUB],160
+Ealing Broadway [DIS],Ealing Common [DIS],197
+Ealing Common [DIS],Acton Town [DIS],145
+Acton Town [DIS],Chiswick Park [DIS],130
+Chiswick Park [DIS],Turnham Green [DIS],111
+Richmond [DIS],Kew Gardens [DIS],217
+Kew Gardens [DIS],Gunnersbury [DIS],164
+Gunnersbury [DIS],Turnham Green [DIS],184
+Turnham Green [DIS],Stamford Brook [DIS],80
+Stamford Brook [DIS],Ravenscourt Park [DIS],98
+Ravenscourt Park [DIS],Hammersmith [DIS],134
+Hammersmith [DIS],Barons Court [DIS],99
+Barons Court [DIS],West Kensington [DIS],95
+West Kensington [DIS],Earls Court [DIS],149
+Kensington (Olympia) [DIS],Earls Court [DIS],216
+Wimbledon [DIS],Wimbledon Park [DIS],173
+Wimbledon Park [DIS],Southfields [DIS],135
+Southfields [DIS],East Putney [DIS],155
+East Putney [DIS],Putney Bridge [DIS],131
+Putney Bridge [DIS],Parsons Green [DIS],122
+Parsons Green [DIS],Fulham Broadway [DIS],105
+Fulham Broadway [DIS],West Brompton [DIS],117
+West Brompton [DIS],Earls Court [DIS],118
+Earls Court [DIS],High Street Kensington [DIS],203
+High Street Kensington [DIS],Notting Hill Gate [DIS],124
+Notting Hill Gate [DIS],Bayswater [DIS],106
+Bayswater [DIS],Paddington [DIS],123
+Paddington [DIS],Edgware Road [DIS],120
+Earls Court [DIS],Gloucester Road [DIS],143
+Gloucester Road [DIS],South Kensington [DIS],109
+South Kensington [DIS],Sloane Square [DIS],137
+Sloane Square [DIS],Victoria [DIS],135
+Victoria [DIS],St. James's Park [DIS],104
+St. James's Park [DIS],Westminster [DIS],111
+Westminster [DIS],Embankment [DIS],106
+Embankment [DIS],Temple [DIS],99
+Temple [DIS],Blackfriars [DIS],104
+Blackfriars [DIS],Mansion House [DIS],107
+Mansion House [DIS],Cannon Street [DIS],76
+Cannon Street [DIS],Monument [DIS],81
+Monument [DIS],Tower Hill [DIS],114
+Tower Hill [DIS],Aldgate East [DIS],138
+Aldgate East [DIS],Whitechapel [DIS],137
+Whitechapel [DIS],Stepney Green [DIS],125
+Stepney Green [DIS],Mile End [DIS],118
+Mile End [DIS],Bow Road [DIS],86
+Bow Road [DIS],Bromley-By-Bow [DIS],130
+Bromley-By-Bow [DIS],West Ham [DIS],135
+West Ham [DIS],Plaistow [DIS],99
+Plaistow [DIS],Upton Park [DIS],128
+Upton Park [DIS],East Ham [DIS],131
+East Ham [DIS],Barking [DIS],211
+Barking [DIS],Upney [DIS],133
+Upney [DIS],Becontree [DIS],150
+Becontree [DIS],Dagenham Heathway [DIS],127
+Dagenham Heathway [DIS],Dagenham East [DIS],127
+Dagenham East [DIS],Elm Park [DIS],180
+Elm Park [DIS],Hornchurch [DIS],136
+Hornchurch [DIS],Upminster Bridge [DIS],124
+Upminster Bridge [DIS],Upminster [DIS],130
+Aldgate [CIR],Tower Hill [CIR],111
+Tower Hill [CIR],Monument [CIR],109
+Monument [CIR],Cannon Street [CIR],74
+Cannon Street [CIR],Mansion House [CIR],76
+Mansion House [CIR],Blackfriars [CIR],93
+Blackfriars [CIR],Temple [CIR],105
+Temple [CIR],Embankment [CIR],106
+Embankment [CIR],Westminster [CIR],99
+Westminster [CIR],St. James's Park [CIR],105
+St. James's Park [CIR],Victoria [CIR],109
+Victoria [CIR],Sloane Square [CIR],130
+Sloane Square [CIR],South Kensington [CIR],148
+South Kensington [CIR],Gloucester Road [CIR],111
+Gloucester Road [CIR],High Street Kensington [CIR],154
+High Street Kensington [CIR],Notting Hill Gate [CIR],124
+Notting Hill Gate [CIR],Bayswater [CIR],106
+Bayswater [CIR],Paddington [CIR],123
+Paddington [CIR],Edgware Road [CIR],120
+Hammersmith [CIR],Goldhawk Road [CIR],119
+Goldhawk Road [CIR],Shepherd's Bush Market [CIR],86
+Shepherd's Bush Market [CIR],Wood Lane [CIR],81
+Wood Lane [CIR],Latimer Road [CIR],84
+Latimer Road [CIR],Ladbroke Grove [CIR],94
+Ladbroke Grove [CIR],Westbourne Park [CIR],103
+Westbourne Park [CIR],Royal Oak [CIR],120
+Royal Oak [CIR],Paddington [CIR],110
+Paddington [CIR],Edgware Road [CIR],160
+Edgware Road [CIR],Baker Street [CIR],150
+Baker Street [CIR],Great Portland Street [CIR],135
+Great Portland Street [CIR],Euston Square [CIR],95
+Euston Square [CIR],King's Cross St. Pancras [CIR],135
+King's Cross St. Pancras [CIR],Farringdon [CIR],200
+Farringdon [CIR],Barbican [CIR],98
+Barbican [CIR],Moorgate [CIR],105
+Moorgate [CIR],Liverpool Street [CIR],102
+Liverpool Street [CIR],Aldgate [CIR],146
+Aldgate [HAM],Tower Hill [HAM],111
+Tower Hill [HAM],Monument [HAM],109
+Monument [HAM],Cannon Street [HAM],74
+Cannon Street [HAM],Mansion House [HAM],76
+Mansion House [HAM],Blackfriars [HAM],93
+Blackfriars [HAM],Temple [HAM],105
+Temple [HAM],Embankment [HAM],106
+Embankment [HAM],Westminster [HAM],99
+Westminster [HAM],St. James's Park [HAM],105
+St. James's Park [HAM],Victoria [HAM],109
+Victoria [HAM],Sloane Square [HAM],130
+Sloane Square [HAM],South Kensington [HAM],148
+South Kensington [HAM],Gloucester Road [HAM],111
+Gloucester Road [HAM],High Street Kensington [HAM],154
+High Street Kensington [HAM],Notting Hill Gate [HAM],124
+Notting Hill Gate [HAM],Bayswater [HAM],106
+Bayswater [HAM],Paddington [HAM],123
+Paddington [HAM],Edgware Road [HAM],120
+Hammersmith [HAM],Goldhawk Road [HAM],119
+Goldhawk Road [HAM],Shepherd's Bush Market [HAM],86
+Shepherd's Bush Market [HAM],Wood Lane [HAM],81
+Wood Lane [HAM],Latimer Road [HAM],84
+Latimer Road [HAM],Ladbroke Grove [HAM],94
+Ladbroke Grove [HAM],Westbourne Park [HAM],103
+Westbourne Park [HAM],Royal Oak [HAM],120
+Royal Oak [HAM],Paddington [HAM],110
+Paddington [HAM],Edgware Road [HAM],160
+Edgware Road [HAM],Baker Street [HAM],150
+Baker Street [HAM],Great Portland Street [HAM],135
+Great Portland Street [HAM],Euston Square [HAM],95
+Euston Square [HAM],King's Cross St. Pancras [HAM],135
+King's Cross St. Pancras [HAM],Farringdon [HAM],200
+Farringdon [HAM],Barbican [HAM],98
+Barbican [HAM],Moorgate [HAM],105
+Moorgate [HAM],Liverpool Street [HAM],102
+Liverpool Street [HAM],Aldgate [HAM],146
+Liverpool Street [HAM],Aldgate East [HAM],156
+Aldgate East [HAM],Whitechapel [HAM],137
+Whitechapel [HAM],Stepney Green [HAM],125
+Stepney Green [HAM],Mile End [HAM],118
+Mile End [HAM],Bow Road [HAM],86
+Bow Road [HAM],Bromley-By-Bow [HAM],130
+Bromley-By-Bow [HAM],West Ham [HAM],135
+West Ham [HAM],Plaistow [HAM],99
+Plaistow [HAM],Upton Park [HAM],128
+Upton Park [HAM],East Ham [HAM],131
+East Ham [HAM],Barking [HAM],211
+West Ruislip [CEN],Ruislip Gardens [CEN],155
+Ruislip Gardens [CEN],South Ruislip [CEN],94
+South Ruislip [CEN],Northolt [CEN],159
+Northolt [CEN],Greenford [CEN],137
+Greenford [CEN],Perivale [CEN],130
+Perivale [CEN],Hanger Lane [CEN],146
+Hanger Lane [CEN],North Acton [CEN],200
+Ealing Broadway [CEN],West Acton [CEN],145
+West Acton [CEN],North Acton [CEN],166
+North Acton [CEN],East Acton [CEN],109
+East Acton [CEN],White City [CEN],178
+White City [CEN],Shepherd's Bush (Central) [CEN],178
+Shepherd's Bush (Central) [CEN],Holland Park [CEN],98
+Holland Park [CEN],Notting Hill Gate [CEN],87
+Notting Hill Gate [CEN],Queensway [CEN],90
+Queensway [CEN],Lancaster Gate [CEN],98
+Lancaster Gate [CEN],Marble Arch [CEN],138
+Marble Arch [CEN],Bond Street [CEN],82
+Bond Street [CEN],Oxford Circus [CEN],91
+Oxford Circus [CEN],Tottenham Court Road [CEN],79
+Tottenham Court Road [CEN],Holborn [CEN],123
+Holborn [CEN],Chancery Lane [CEN],70
+Chancery Lane [CEN],St. Paul's [CEN],110
+St. Paul's [CEN],Bank [CEN],123
+Bank [CEN],Liverpool Street [CEN],121
+Liverpool Street [CEN],Bethnal Green [CEN],138
+Mile End [CEN],Stratford [CEN],211
+Stratford [CEN],Leyton [CEN],164
+Leyton [CEN],Leytonstone [CEN],147
+Leytonstone [CEN],Snaresbrook [CEN],141
+Snaresbrook [CEN],South Woodford [CEN],114
+South Woodford [CEN],Woodford [CEN],137
+Woodford [CEN],Buckhurst Hill [CEN],160
+Buckhurst Hill [CEN],Loughton [CEN],154
+Loughton [CEN],Debden [CEN],151
+Debden [CEN],Theydon Bois [CEN],204
+Theydon Bois [CEN],Epping [CEN],152
+Leytonstone [CEN],Wanstead [CEN],147
+Wanstead [CEN],Redbridge [CEN],113
+Redbridge [CEN],Gants Hill [CEN],115
+Gants Hill [CEN],Newbury Park [CEN],178
+Newbury Park [CEN],Barkingside [CEN],109
+Barkingside [CEN],Fairlop [CEN],114
+Fairlop [CEN],Hainault [CEN],89
+Woodford [CEN],Roding Valley [CEN],150
+Roding Valley [CEN],Chigwell [CEN],198
+Chigwell [CEN],Grange Hill [CEN],124
+Grange Hill [CEN],Hainault [CEN],121
+Elephant & Castle [BAK],Lambeth North [BAK],125
+Lambeth North [BAK],Waterloo [BAK],106
+Waterloo [BAK],Embankment [BAK],98
+Embankment [BAK],Charing Cross [BAK],73
+Charing Cross [BAK],Piccadilly Circus [BAK],108
+Piccadilly Circus [BAK],Oxford Circus [BAK],131
+Oxford Circus [BAK],Regent's Park [BAK],112
+Regent's Park [BAK],Baker Street [BAK],111
+Baker Street [BAK],Marylebone [BAK],79
+Marylebone [BAK],Edgware Road [BAK],77
+Edgware Road [BAK],Paddington [BAK],109
+Paddington [BAK],Warwick Avenue [BAK],110
+Warwick Avenue [BAK],Maida Vale [BAK],102
+Maida Vale [BAK],Kilburn Park [BAK],112
+Kilburn Park [BAK],Queen's Park [BAK],130
+Queen's Park [BAK],Kensal Green [BAK],187
+Kensal Green [BAK],Willesden Junction [BAK],157
+Willesden Junction [BAK],Harlesden [BAK],113
+Harlesden [BAK],Stonebridge Park [BAK],143
+Stonebridge Park [BAK],Wembley Central [BAK],169
+Wembley Central [BAK],North Wembley [BAK],127
+North Wembley [BAK],South Kenton [BAK],104
+South Kenton [BAK],Kenton [BAK],130
+Kenton [BAK],Harrow & Wealdstone [BAK],161
+Watford Junction [OVG-WEU],Watford High Street [OVG-WEU],240
+Watford High Street [OVG-WEU],Bushey [OVG-WEU],180
+Bushey [OVG-WEU],Carpenders Park [OVG-WEU],180
+Carpenders Park [OVG-WEU],Hatch End [OVG-WEU],180
+Hatch End [OVG-WEU],Headstone Lane [OVG-WEU],120
+Headstone Lane [OVG-WEU],Harrow & Wealdstone [OVG-WEU],180
+Harrow & Wealdstone [OVG-WEU],Kenton [OVG-WEU],120
+Kenton [OVG-WEU],South Kenton [OVG-WEU],120
+South Kenton [OVG-WEU],North Wembley [OVG-WEU],120
+North Wembley [OVG-WEU],Wembley Central [OVG-WEU],120
+Wembley Central [OVG-WEU],Stonebridge Park [OVG-WEU],180
+Stonebridge Park [OVG-WEU],Harlesden [OVG-WEU],120
+Harlesden [OVG-WEU],Willesden Junction [OVG-WEU],120
+Willesden Junction [OVG-WEU],Kensal Green [OVG-WEU],180
+Kensal Green [OVG-WEU],Queens Park [OVG-WEU],120
+Queens Park [OVG-WEU],Kilburn High Road [OVG-WEU],120
+Kilburn High Road [OVG-WEU],South Hampstead [OVG-WEU],120
+South Hampstead [OVG-WEU],Euston [OVG-WEU],660
+Gospel Oak [OVG-GOB],Upper Holloway [OVG-GOB],240
+Upper Holloway [OVG-GOB],Crouch Hill [OVG-GOB],180
+Crouch Hill [OVG-GOB],Harringay Green Lanes [OVG-GOB],180
+Harringay Green Lanes [OVG-GOB],South Tottenham [OVG-GOB],180
+South Tottenham [OVG-GOB],Blackhorse Road [OVG-GOB],180
+Blackhorse Road [OVG-GOB],Walthamstow Queens Road [OVG-GOB],180
+Walthamstow Queens Road [OVG-GOB],Leyton Midland Road [OVG-GOB],180
+Leyton Midland Road [OVG-GOB],Leytonstone High Road [OVG-GOB],180
+Leytonstone High Road [OVG-GOB],Wanstead Park [OVG-GOB],180
+Wanstead Park [OVG-GOB],Woodgrange Park [OVG-GOB],120
+Woodgrange Park [OVG-GOB],Barking [OVG-GOB],420
+Cheshunt [OVG-LST],Theobalds Grove [OVG-LST],300
+Theobalds Grove [OVG-LST],Turkey Street [OVG-LST],120
+Turkey Street [OVG-LST],Southbury [OVG-LST],180
+Southbury [OVG-LST],Edmonton Green [OVG-LST],240
+Enfield Town [OVG-LST],Bush Hill Park [OVG-LST],300
+Bush Hill Park [OVG-LST],Edmonton Green [OVG-LST],180
+Edmonton Green [OVG-LST],Silver Street [OVG-LST],120
+Silver Street [OVG-LST],White Hart Lane [OVG-LST],120
+White Hart Lane [OVG-LST],Bruce Grove [OVG-LST],120
+Bruce Grove [OVG-LST],Seven Sisters [OVG-LST],120
+Seven Sisters [OVG-LST],Stamford Hill [OVG-LST],120
+Stamford Hill [OVG-LST],Stoke Newington [OVG-LST],120
+Stoke Newington [OVG-LST],Rectory Road [OVG-LST],120
+Rectory Road [OVG-LST],Hackney Downs [OVG-LST],180
+Chingford [OVG-LST],Highams Park [OVG-LST],480
+Highams Park [OVG-LST],Wood Street [OVG-LST],180
+Wood Street [OVG-LST],Walthamstow Central [OVG-LST],120
+Walthamstow Central [OVG-LST],St James Street [OVG-LST],120
+St James Street [OVG-LST],Clapton [OVG-LST],180
+Clapton [OVG-LST],Hackney Downs [OVG-LST],180
+Hackney Downs [OVG-LST],London Fields [OVG-LST],120
+London Fields [OVG-LST],Cambridge Heath [OVG-LST],120
+Cambridge Heath [OVG-LST],Bethnal Green [OVG-LST],120
+Bethnal Green [OVG-LST],Liverpool Street [OVG-LST],180
+Clapham Junction [OVG-HSL],Wandsworth Road [OVG-HSL],360
+Wandsworth Road [OVG-HSL],Clapham High Street [OVG-HSL],120
+Clapham High Street [OVG-HSL],Denmark Hill [OVG-HSL],300
+Denmark Hill [OVG-HSL],Peckham Rye [OVG-HSL],120
+Peckham Rye [OVG-HSL],Queens Road Peckham [OVG-HSL],180
+Queens Road Peckham [OVG-HSL],Surrey Quays [OVG-HSL],360
+West Croydon [OVG-HSL],Norwood Junction [OVG-HSL],480
+Norwood Junction [OVG-HSL],Anerley [OVG-HSL],180
+Anerley [OVG-HSL],Penge West [OVG-HSL],120
+Penge West [OVG-HSL],Sydenham [OVG-HSL],180
+Crystal Palace [OVG-HSL],Sydenham [OVG-HSL],300
+Sydenham [OVG-HSL],Forest Hill [OVG-HSL],120
+Forest Hill [OVG-HSL],Honor Oak Park [OVG-HSL],180
+Honor Oak Park [OVG-HSL],Brockley [OVG-HSL],180
+Brockley [OVG-HSL],New Cross Gate [OVG-HSL],120
+New Cross Gate [OVG-HSL],Surrey Quays [OVG-HSL],300
+New Cross [OVG-HSL],Surrey Quays [OVG-HSL],360
+Surrey Quays [OVG-HSL],Canada Water [OVG-HSL],60
+Canada Water [OVG-HSL],Rotherhithe [OVG-HSL],120
+Rotherhithe [OVG-HSL],Wapping [OVG-HSL],120
+Wapping [OVG-HSL],Shadwell [OVG-HSL],120
+Shadwell [OVG-HSL],Whitechapel [OVG-HSL],120
+Whitechapel [OVG-HSL],Shoreditch High Street [OVG-HSL],120
+Shoreditch High Street [OVG-HSL],Hoxton [OVG-HSL],130
+Hoxton [OVG-HSL],Haggerston [OVG-HSL],120
+Haggerston [OVG-HSL],Dalston Junction [OVG-HSL],60
+Dalston Junction [OVG-HSL],Canonbury [OVG-HSL],180
+Canonbury [OVG-HSL],Highbury & Islington [OVG-HSL],120
+Clapham Junction [OVG-SRC],Imperial Wharf [OVG-SRC],240
+Imperial Wharf [OVG-SRC],West Brompton [OVG-SRC],180
+West Brompton [OVG-SRC],Kensington (Olympia) [OVG-SRC],120
+Kensington (Olympia) [OVG-SRC],Shepherds Bush [OVG-SRC],120
+Shepherds Bush [OVG-SRC],Willesden Junction [OVG-SRC],540
+Richmond [OVG-SRC],Kew Gardens [OVG-SRC],240
+Kew Gardens [OVG-SRC],Gunnersbury [OVG-SRC],120
+Gunnersbury [OVG-SRC],South Acton [OVG-SRC],180
+South Acton [OVG-SRC],Acton Central [OVG-SRC],240
+Acton Central [OVG-SRC],Willesden Junction [OVG-SRC],360
+Willesden Junction [OVG-SRC],Kensal Rise [OVG-SRC],120
+Kensal Rise [OVG-SRC],Brondesbury Park [OVG-SRC],120
+Brondesbury Park [OVG-SRC],Brondesbury [OVG-SRC],120
+Brondesbury [OVG-SRC],West Hampstead [OVG-SRC],120
+West Hampstead [OVG-SRC],Finchley Road & Frognal [OVG-SRC],60
+Finchley Road & Frognal [OVG-SRC],Hampstead Heath [OVG-SRC],180
+Hampstead Heath [OVG-SRC],Gospel Oak [OVG-SRC],120
+Gospel Oak [OVG-SRC],Kentish Town West [OVG-SRC],120
+Kentish Town West [OVG-SRC],Camden Road [OVG-SRC],240
+Camden Road [OVG-SRC],Caledonian Road & Barnesbury [OVG-SRC],180
+Caledonian Road & Barnesbury [OVG-SRC],Highbury & Islington [OVG-SRC],180
+Highbury & Islington [OVG-SRC],Canonbury [OVG-SRC],120
+Canonbury [OVG-SRC],Dalston Kingsland [OVG-SRC],120
+Dalston Kingsland [OVG-SRC],Hackney Central [OVG-SRC],120
+Hackney Central [OVG-SRC],Homerton [OVG-SRC],120
+Homerton [OVG-SRC],Hackney Wick [OVG-SRC],120
+Hackney Wick [OVG-SRC],Stratford [OVG-SRC],360
+Romford [OVG-ROM],Emerson Park [OVG-ROM],240
+Emerson Park [OVG-ROM],Upminster [OVG-ROM],300
+Shenfield [ELZ],Brentwood [ELZ],360
+Brentwood [ELZ],Harold Wood [ELZ],240
+Harold Wood [ELZ],Gidea Park [ELZ],180
+Gidea Park [ELZ],Romford [ELZ],240
+Romford [ELZ],Chadwell Heath [ELZ],240
+Chadwell Heath [ELZ],Goodmayes [ELZ],120
+Goodmayes [ELZ],Seven Kings [ELZ],120
+Seven Kings [ELZ],Ilford [ELZ],120
+Ilford [ELZ],Manor Park [ELZ],180
+Manor Park [ELZ],Forest Gate [ELZ],120
+Forest Gate [ELZ],Maryland [ELZ],120
+Maryland [ELZ],Stratford [ELZ],120
+Stratford [ELZ],Liverpool Street [ELZ],420
+London Paddington [ELZ],Acton Main Line [ELZ],480
+Acton Main Line [ELZ],Ealing Broadway [ELZ],180
+Ealing Broadway [ELZ],West Ealing [ELZ],120
+West Ealing [ELZ],Hanwell [ELZ],120
+Hanwell [ELZ],Southall [ELZ],240
+Southall [ELZ],Hayes & Harlington [ELZ],240
+Hayes & Harlington [ELZ],Heathrow T123 [ELZ],720
+Heathrow T123 [ELZ],Heathrow T4 [ELZ],240
+Heathrow T123 [ELZ],Heathrow T5 [ELZ],240
+Bank [DLR],Shadwell [DLR],240
+Tower Gateway [DLR],Shadwell [DLR],120
+Shadwell [DLR],Limehouse [DLR],120
+Limehouse [DLR],Westferry [DLR],120
+Westferry [DLR],Poplar [DLR],60
+Poplar [DLR],Blackwall [DLR],120
+Blackwall [DLR],East India [DLR],60
+East India [DLR],Canning Town [DLR],120
+Canning Town [DLR],Royal Victoria [DLR],120
+Royal Victoria [DLR],Custom House [DLR],60
+Custom House [DLR],Prince Regent [DLR],60
+Prince Regent [DLR],Royal Albert [DLR],120
+Royal Albert [DLR],Beckton Park [DLR],60
+Beckton Park [DLR],Cyprus [DLR],60
+Cyprus [DLR],Gallions Reach [DLR],120
+Gallions Reach [DLR],Beckton [DLR],120
+Canning Town [DLR],West Silvertown [DLR],180
+West Silvertown [DLR],Pontoon Dock [DLR],120
+Pontoon Dock [DLR],London City Airport [DLR],120
+London City Airport [DLR],King George V [DLR],120
+King George V [DLR],Woolwich Arsenal [DLR],240
+Stratford International [DLR],Stratford [DLR],60
+Stratford [DLR],Stratford High Street [DLR],60
+Stratford High Street [DLR],Abbey Road [DLR],120
+Abbey Road [DLR],West Ham [DLR],60
+West Ham [DLR],Star Lane [DLR],120
+Star Lane [DLR],Canning Town [DLR],60
+Canning Town [DLR],Royal Victoria [DLR],120
+Canning Town [DLR],West Silvertown [DLR],180
+Stratford [DLR],Pudding Mill Lane [DLR],120
+Pudding Mill Lane [DLR],Bow Church [DLR],120
+Bow Church [DLR],Devons Road [DLR],60
+Devons Road [DLR],Langdon Park [DLR],120
+Langdon Park [DLR],All Saints [DLR],60
+All Saints [DLR],Poplar [DLR],120
+Poplar [DLR],West India Quay [DLR],120
+West India Quay [DLR],Canary Wharf [DLR],60
+Westferry [DLR],West India Quay [DLR],120
+Canary Wharf [DLR],Heron Quays [DLR],60
+Heron Quays [DLR],South Quay [DLR],120
+South Quay [DLR],Crossharbour [DLR],120
+Crossharbour [DLR],Mudchute [DLR],60
+Mudchute [DLR],Island Gardens [DLR],60
+Island Gardens [DLR],Cutty Sark [DLR],120
+Cutty Sark [DLR],Greenwich [DLR],60
+Greenwich [DLR],Deptford Bridge [DLR],120
+Deptford Bridge [DLR],Elverson Road [DLR],120
+Elverson Road [DLR],Lewisham [DLR],120
+Wimbledon [TRM],Dundonald Road [TRM],60
+Dundonald Road [TRM],Merton Park [TRM],60
+Merton Park [TRM],Morden Road [TRM],120
+Morden Road [TRM],Phipps Bridge [TRM],120
+Phipps Bridge [TRM],Belgrave Walk [TRM],60
+Belgrave Walk [TRM],Mitcham [TRM],120
+Mitcham [TRM],Mitcham Junction [TRM],180
+Mitcham Junction [TRM],Beddington Lane [TRM],120
+Beddington Lane [TRM],Therapia Lane [TRM],120
+Therapia Lane [TRM],Ampere Way [TRM],60
+Ampere Way [TRM],Waddon Marsh [TRM],120
+Waddon Marsh [TRM],Wandle Park [TRM],120
+Wandle Park [TRM],Reeves Corner [TRM],120
+Reeves Corner [TRM],Centrale [TRM],60
+Centrale [TRM],West Croydon [TRM],60
+West Croydon [TRM],Wellesley Road [TRM],60
+Wellesley Road [TRM],East Croydon [TRM],60
+East Croydon [TRM],George Street [TRM],60
+George Street [TRM],Church Street [TRM],60
+Church Street [TRM],Centrale [TRM],60
+Church Street [TRM],Wandle Park [TRM],120
+East Croydon [TRM],Lebanon Road [TRM],60
+Lebanon Road [TRM],Sandilands [TRM],60
+Sandilands [TRM],Addiscombe [TRM],120
+Addiscombe [TRM],Blackhorse Lane [TRM],120
+Blackhorse Lane [TRM],Woodside [TRM],120
+Woodside [TRM],Arena [TRM],120
+Arena [TRM],Elmers End [TRM],180
+Arena [TRM],Harrington Road [TRM],180
+Harrington Road [TRM],Birkbeck [TRM],120
+Birkbeck [TRM],Avenue Road [TRM],120
+Avenue Road [TRM],Beckenham Road [TRM],120
+Beckenham Road [TRM],Beckenham Junction [TRM],180
+Sandilands [TRM],Lloyd Park [TRM],120
+Lloyd Park [TRM],Coombe Lane [TRM],180
+Coombe Lane [TRM],Gravel Hill [TRM],180
+Gravel Hill [TRM],Addington Village [TRM],120
+Addington Village [TRM],Fieldway [TRM],120
+Fieldway [TRM],King Henry's Drive [TRM],120
+King Henry's Drive [TRM],New Addington [TRM],60
+Moorgate [XGN],Old Street [XGN],154
+Old Street [XGN],Essex Road [XGN],197
+Essex Road [XGN],Highbury & Islington [XGN],134
+Highbury & Islington [XGN],Drayton Park [XGN],140
+Drayton Park [XGN],Finsbury Park [XGN],219
+Finsbury Park [XGN],Harringay [XGN],170
+Harringay [XGN],Hornsey [XGN],108
+Hornsey [XGN],Alexandra Palace [XGN],206
+Alexandra Palace [XGN],Bowes Park [XGN],181
+Bowes Park [XGN],Palmers Green [XGN],176

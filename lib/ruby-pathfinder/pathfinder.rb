@@ -11,24 +11,38 @@ extime = Benchmark.measure do
   graph, station_variants = Marshal.load(File.read(GRAPH_PATH))
   line_data = JSON.load(File.read(LINES_PATH))
 
-  splat = ARGV.join(' ').split(' -- ')
-  if splat.size < 2
-    STDERR.puts "Not enough parameters. Usage:\nruby pathfinder.rb ORIGIN -- DESTINATION"
-    exit 10
+  if ARGV.size != 2
+    STDERR.puts "Wrong parameter count.\nUsage: ruby pathfinder.rb <origin> <destination>"
+    exit 1
   end
 
-  from = splat[0]
-  to = splat[1]
+  from = ARGV[0]
+  to = ARGV[1]
+
+  unless station_variants.include?(from)
+    STDERR.puts "Unrecognised origin station #{from.inspect}"
+    exit 2
+  end
+
+  unless station_variants.include?(to)
+    STDERR.puts "Unrecognised destination station #{to.inspect}"
+    exit 3
+  end
 
   from_variants = station_variants[from]
   to_variants = station_variants[to]
 
-  paths = from_variants.map do |from_lined|
-    to_variants.map do |to_lined|
-      tr, pr = graph.shortest_path(from_lined, to_lined)
-      [tr, Set.new(pr)]
-    end
-  end.flatten.each_slice(2).to_a.sort_by { |path| path[0] }
+  begin
+    paths = from_variants.map do |from_lined|
+      to_variants.map do |to_lined|
+        tr, pr = graph.shortest_path(from_lined, to_lined)
+        [tr, Set.new(pr)]
+      end
+    end.flatten.each_slice(2).to_a.sort_by { |path| path[0] }
+  rescue ArgumentError => ex
+    STDERR.puts ex.message
+    exit 4
+  end
 
   time, path = paths[0]
   path = path.to_a

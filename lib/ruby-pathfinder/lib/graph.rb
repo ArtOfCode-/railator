@@ -105,8 +105,12 @@ class Graph
     distances[start] = 0
 
     until verts.empty?
-      current = extract_min(verts.map { |k| [k, distances[k]] }.to_a)
+      current = extract_min(verts.map { |k| [k, distances[k]] }.to_h)
       verts.delete current
+
+      if current.nil?
+        raise ArgumentError, "No path exists between #{start} and #{target}"
+      end
 
       if current == target
         return [distances[current], prev_sequence(current, previous)]
