@@ -27,7 +27,6 @@ class Graph
     @vertices[key] = Vertex.new(key)
   end
 
-
   def remove_vertex(key)
     @vertices.delete key
     @vertices.each do |v|
